@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card .images {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.user-card .images .profile {
+    border-radius: 50%;
+}
+
+.user-card .images .quote {
+    position: absolute;
+    width: 35px;
+    right: 0;
+    top: 0;
+}
+
+.user-card h1 {
+    margin-bottom: 10px;
+}
+
+.user-card h3 {
+    margin-bottom: 20px;
+    color: rgb(12, 77, 155);
+}
+
+.user-card p {
+    text-align: justify;
+    width: 90%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial {
+    height: 500px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 0px gray;
+    gap: 40px;
+}
+
+.container .heading {
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.container hr {
+    height: 5px;
+    width: 60px;
+    background-color: rgb(12, 77, 155);
+}
+
+.testimonial .buttons {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    gap: 50px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev,
+.next {
+    width: 50px;
+}
